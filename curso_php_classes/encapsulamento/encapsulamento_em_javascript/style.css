@@ -1,0 +1,84 @@
+#controle{
+    width: 300px;
+    height: 600px;
+    background-color: rgba(0,0,0,.7);
+    padding:5px;
+    border-radius: 20px;
+    
+}
+#interface{
+    width: 90%;
+    height: 97%;
+    margin: 5px auto;
+    background-color: whitesmoke;
+    position:relative;
+}
+.container_botao{
+    position:absolute;
+    width: 100%;
+    top:120px;
+
+    list-style: none;
+    display: grid;
+    grid-template-areas:
+    "power led"
+    "mais menos"
+    "mudo ."
+    "menu menu"
+    "play pause"
+    ;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    
+}
+#btn_power{
+    grid-area: power;
+}
+#btn_mais{
+    grid-area: mais;
+}
+#btn_menos{
+    grid-area: menos;
+}
+#btn_menu{
+    grid-area: menu;
+}
+#btn_play{
+    grid-area: play;
+}
+#btn_pause{
+    grid-area: pause;
+}
+#btn_mudo{
+    grid-area: mudo;
+}
+#led{
+    grid-area: led;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    margin: 15px auto;
+    padding: 15px;
+    border-radius: 50px;
+    border: none;
+}
+input{
+    margin: 15px ;
+    padding: 15px;
+    border-radius: 50px;
+    border: solid 1px ;
+}
+input:hover{
+    cursor:pointer;
+    background-color: beige;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 87%;
+    margin: 0 auto;
+}
+pre{
+    margin: 0 auto;
+}

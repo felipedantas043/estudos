@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt_br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,6 +19,8 @@
         <a href="Aula03">Aula 03</a>
         <a href="Aula04">Aula 04</a>
         <a href="ContaBanco">Conta Banco</a>
+        <a href="encapsulamento">Encapsulamento</a>
+        <a href="encapsulamento/encapsulamento_em_javascript">Teste de encapsulamento em js</a>
     </section>
 
 </body>
