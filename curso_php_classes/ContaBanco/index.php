@@ -19,9 +19,9 @@
 
             $usuario01 = new ContaBanco("usuario01");
             
-            $usuario01->abrirConta(1111, "cc");
-            $usuario01->depositar(300);
-            $usuario01->pagarMensalidade();
+            $usuario01->abrirConta(111, "cc");
+            $usuario01->depositar(30);
+            // $usuario01->pagarMensalidade();
             
             
             print_r($usuario01);
