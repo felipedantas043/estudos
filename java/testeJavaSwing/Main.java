@@ -1,6 +1,6 @@
 package testeJavaSwing;
 
-import testeJavaSwing.src.calculadora.*;
+import testeJavaSwing.src.visao.*;
 
 public class Main {
     public Main(){
@@ -9,6 +9,6 @@ public class Main {
     }
     public static void main(String[] args) {
 
-        
+        new Principal();
     }
 }
